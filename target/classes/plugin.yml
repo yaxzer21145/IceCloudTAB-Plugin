@@ -1,0 +1,27 @@
+name: IceCloudTAB
+version: 1.0.0
+main: com.icecloud.tab.IceCloudTAB
+api-version: 1.13
+folia-supported: true
+author: IceCloud
+description: Advanced Tab & Scoreboard Plugin - Full Version Support (1.7.10 ~ 26.1)
+
+softdepend:
+  - PlaceholderAPI
+
+permissions:
+  icecloudtab.admin:
+    description: Full admin access
+    default: op
+  icecloudtab.reload:
+    description: Reload plugin configuration
+    default: op
+  icecloudtab.see:
+    description: See the tab list
+    default: true
+
+commands:
+  icecloudtab:
+    description: IceCloudTAB main command
+    usage: /icecloudtab <reload|debug>
+    aliases: [ictab, tab]

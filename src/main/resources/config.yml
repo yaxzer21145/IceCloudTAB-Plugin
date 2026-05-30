@@ -1,0 +1,85 @@
+# ============================================
+# IceCloudTAB Configuration
+# Advanced Tab & Scoreboard Plugin v2.0.0
+# ============================================
+
+# ============================================
+# Tab (Player List) Settings
+# ============================================
+tab:
+  # Enable/disable the tab list modification
+  enabled: true
+
+  # Update interval in ticks (20 ticks = 1 second)
+  update-interval: 20
+
+  # Tab header - supports:
+  #   - Color codes (&0-&9, &a-&f, &k-&o, &r)
+  #   - Hex colors (#RRGGBB)
+  #   - Gradient: <gradient:#color1:#color2>text</gradient>
+  #   - Multi-color gradient: <gradient:#color1>#color2>#color3>text</gradient>
+  #   - Variables: %player% %online% %ping% %tps% %world% etc.
+  #   - PlaceholderAPI placeholders (if installed)
+  header:
+    - "&b&lIceCloud &f&lNetwork"
+    - "&7<gradient:#55ff55:#00aa00>Welcome %player%</gradient>"
+    - ""
+
+  # Tab footer
+  footer:
+    - ""
+    - "&7Online: &a%online%&7/&a%max_players%  &8|  &7Ping: &e%ping%ms  &8|  &7TPS: &6%tps%"
+    - "&7%date% &8- &7%time%"
+
+# ============================================
+# Scoreboard Settings
+# ============================================
+scoreboard:
+  # Enable/disable the scoreboard
+  enabled: true
+
+  # Update interval in ticks (20 ticks = 1 second)
+  update-interval: 20
+
+  # Scoreboard title
+  # Supports all color features: & codes, hex, gradients, variables
+  title: "&b&lIceCloud &f&lNetwork"
+
+  # Scoreboard lines (max 15 lines recommended)
+  # Supports all color features: & codes, hex, gradients, variables
+  lines:
+    - "&7&m------------------"
+    - " &fPlayer: &a%player%"
+    - " &fRank: &b%vault_group%"
+    - " &fPing: &e%ping%ms"
+    - ""
+    - " &fOnline: &a%online%&7/&a%max_players%"
+    - " &fTPS: &6%tps%"
+    - " &fWorld: &7%world%"
+    - "&7&m------------------"
+
+# ============================================
+# Available Variables:
+# ============================================
+# %player%         - Player name
+# %displayname%    - Player display name
+# %uuid%           - Player UUID
+# %world%          - Current world name
+# %online%         - Online player count
+# %max_players%    - Max player count
+# %ping%           - Player ping in ms
+# %x%, %y%, %z%    - Player coordinates
+# %health%         - Player health
+# %max_health%     - Max health
+# %food%           - Food level
+# %level%          - XP level
+# %gamemode%       - Game mode
+# %ip%             - Player IP address
+# %tps%            - Server TPS
+# %time%           - Current time (HH:mm:ss)
+# %date%           - Current date (yyyy/MM/dd)
+# %onlineplayers%  - Online player names list
+#
+# PlaceholderAPI variables (if installed):
+#   %vault_group%, %player_exp%, etc.
+# ============================================

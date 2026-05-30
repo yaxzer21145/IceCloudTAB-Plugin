@@ -1,0 +1,16 @@
+com\icecloud\tab\IceCloudTAB.class
+com\icecloud\tab\utils\ReflectionUtil.class
+com\icecloud\tab\adapter\TabAdapter.class
+com\icecloud\tab\scoreboard\ScoreboardManager.class
+com\icecloud\tab\tab\TabManager$1.class
+com\icecloud\tab\update\UpdateTask.class
+com\icecloud\tab\adapter\TabAdapterPre13.class
+com\icecloud\tab\utils\ColorUtils.class
+com\icecloud\tab\update\UpdateTask$1.class
+com\icecloud\tab\adapter\TabAdapterPost13.class
+com\icecloud\tab\utils\VariableUtils.class
+com\icecloud\tab\scoreboard\ScoreboardManager$1.class
+com\icecloud\tab\tab\TabManager.class
+com\icecloud\tab\adapter\AdapterFactory.class
+com\icecloud\tab\config\ConfigManager.class
+com\icecloud\tab\utils\VersionUtils.class
